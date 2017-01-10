@@ -1,0 +1,361 @@
+.customHr {
+    width: 95%
+    font-size: 1px;
+    color: #000;
+    line-height: 1px;
+
+    background-color: grey;
+    margin-top: 8px;
+    margin-bottom: 9px;
+} 
+ 
+body {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: auto;
+	position: relative;
+	min-width: 850px; 
+}
+
+p, #content li {
+	font-size: 90%;
+	line-height: 180%;
+}
+
+img {
+	border: none;
+}
+
+#left_social {
+	clear: both;
+}
+
+#logo {
+	float: left; 
+}
+
+#logo, #top_right {
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	color: #330033;
+	font-weight: normal; 
+}
+
+/*.menu_header, li {
+	color: #ffffff; 
+}*/
+
+.menu_header {
+	font-weight: bold;
+	background-color: #E4E4E4;
+	color: #330033;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 110%;
+	line-height: 200%;
+	padding: 0.35em; 
+}
+
+/*nav li {
+	padding: 0;
+}
+*/
+
+/*.dropdown-content:hover ul {
+	display: block;
+	margin-top: 4px;
+	position: relative;
+	left: 40px;
+}
+*/
+
+#panel {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	clear: both;
+}
+
+#projects {
+	margin-top: .5em;
+}
+
+#panel img {
+	width: 100%;
+}
+
+#top_right {
+	float: right;
+	clear: both;
+}
+
+#top_right span {
+	padding-right: 1.5em;
+}
+
+#mission, #content {
+	text-align: justify;
+	line-height: 125%; 
+}
+
+#left_column {
+	float: left;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	padding-top: 0.5em;
+	font-size: 8pt;
+}
+
+#history {
+	float: right;
+	width: 75%;
+	text-align: justify;
+}
+
+#alexander {
+	float: right;
+	width: 75%;
+}
+
+#alexander h4 {
+	text-align: center;
+}
+
+#journey {
+	float: left;
+	width: 45%;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#journey h4 {
+	margin: 10px;
+	font-size: 130%;
+}
+
+#return-journal {
+	float: right;
+	width: 45%;
+	text-align: center;
+	margin-top: 24px;
+	padding: 0;
+}
+
+#return-journal h4 {
+	font-size: 130%;
+	margin: 10px;
+}
+
+#joseph {
+	float: right;
+	text-align: justify;
+	width: 75%;
+}
+
+.project {
+	/* font-size: 70%; */
+	/* float: left; */
+	text-align: center;
+	margin-right: 1em;
+	text-transform: uppercase;
+	padding: 0.3em;
+	/* border: 1px solid #d9ceb3; */
+	margin-bottom: 1em; 
+	overflow: hidden;
+}
+
+#supporters {
+	clear: both;
+	overflow: hidden;
+	margin-top: .5em; 
+}
+
+#content {
+	margin-left: 240px;
+	width: 70%;
+}
+
+h4.diary {
+	margin: 35px 0px 10px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 150%;
+	color: #330033;
+	line-height: normal; text-align: left;
+}
+
+#supporters img {
+	padding-bottom: 1em;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #303;
+}
+
+a:hover {
+	/* background-color: #E4E4E4; */
+	text-decoration: none;
+	color: #303;
+}
+
+.project img {
+	float: left;
+}
+
+.project p {
+	font-size: 12pt;
+}
+
+/* added 9-29-2013 for submenus */
+
+/*ul.topmenu li ul {
+	visibility: hidden;
+	position: relative;
+}
+
+.submenu ul li {
+	margin-left: 220px;
+}
+
+ul.topmenu li.submenu:hover ul {
+	visibility: visible;
+	background-color: white;
+}*/
+
+/* Commented this out 07-24-16, doesn't seem to do anything
+ul.topmenu {
+	display: inline-table;
+	position: relative;
+	width: 100%;
+}
+*/
+
+/* Commented this out 07-24-16, doesn't seem to do anything
+.dropdown ul li {
+	background-color: white;
+}
+*/
+
+/* Commented this out 07-24-16, doesn't seem to do anything
+.dropdown-content ul li a:hover {
+	background-color: #F3F3F3;
+	
+}
+*/
+
+/* Commented this out 07-24-16, doesn't seem to do anything
+.dropdown-content ul {
+	display: none;
+}
+*/
+
+/*Controls the style nav div/container*/
+nav {
+	color: #000000;
+	background-color: white;
+	font-weight: normal; 
+	width: 215px;
+	padding: 5px;
+	margin: 10px;
+}
+
+/*Controls the style of the ul-organized set of options in the nav*/
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+/*Controls the style of non-dropdown options in the vertical nav*/
+nav li a {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: 0.35em;
+	font-size: 100%;
+	font-weight: normal;
+	
+}
+
+.dropbtn {
+	text-align: left;
+	width: 215px;
+	background-color: white;
+	color: #000000;
+	border: none;
+	cursor: pointer;
+	color: #333;
+	display: block;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	font-size: 100%;
+	
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	
+}
+
+.dropdown-content {
+	text-align: left;
+	display: none;
+	background-color: #F3F3F3;
+	/*min-width: 160px;*/
+	position: relative;
+	padding: 10px;
+
+}
+
+.dropdown-content a {
+	color: black;
+	/*padding: 12px 16px*/
+	/*padding-left: 0px;*/
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	
+}
+
+.dropdown-content a:hover {
+	color: #5C5C5C;
+	/*max-width: 200px;*/
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	/*width: 100%; 
+	left: 40px;*/
+	margin-left: 10px;
+}
+
+.dropdown:hover .dropbtn {
+	 background-color: #F3F3F3;
+}
+
+/* Commented this out 07-24-16, doesn't seem to do anything
+.dropdown ul:after {
+	content: "";
+	display: block;
+}
+*/ 
+
+nav ul li:hover {
+	background-color: #F3F3F3;
+}
+
+.clear {
+	clear: both;
+}
+
