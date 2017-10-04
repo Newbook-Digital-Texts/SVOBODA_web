@@ -1,0 +1,42 @@
+form label, legend {
+  color: #330033;
+  font-size: 14pt;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;  display: block;
+  margin-top: 10px
+}
+
+input[type=text], input[type=email] {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;  display: block;
+  width: 95%;
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-size: 14pt;
+}
+
+textarea {
+  width: 95%;
+  font-family: 'Alegreya Sans', Helvetica, Tahoma, Arial, sans-serif;
+  padding: 5px;
+  font-size: 12pt;
+
+}
+
+input[type=submit] {
+  background-color: #330033;
+  color: #fff;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;  display: block;
+  font-size:18px;
+  line-height:30px;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  border:0;
+  width:120px;
+  height:32px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+input[type=submit]:hover {
+  opacity: .6;
+}

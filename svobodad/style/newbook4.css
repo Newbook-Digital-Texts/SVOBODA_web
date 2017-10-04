@@ -1,0 +1,242 @@
+body {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: auto;
+	position: relative;
+	min-width: 850px;
+}
+
+p, #content li {
+	font-size: 90%;
+	line-height: 180%;
+}
+
+img {
+	border: none;
+}
+
+#top_right {
+  height: 5%;
+  clear: none;
+}
+
+#top-right p {
+  padding: 0;
+  margin: 0;
+  font-size: 12pt;
+}
+
+#projects {
+	margin-top: .5em;
+}
+
+#panel img {
+	width: 100%;
+}
+
+#top_right {
+	float: right;
+	clear: both;
+}
+
+#top_right span {
+	padding-right: 1.5em;
+}
+
+#mission, #content {
+	text-align: justify;
+	line-height: 180%;
+  margin-bottom: 25px;
+}
+
+a.explore-links {
+  text-decoration: none;
+  color: black;
+}
+
+a.explore-links:hover {
+  text-decoration: underline;;
+  color: black;
+}
+
+#left_column {
+	float: left;
+  height: 100%;
+	width: 20%;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	padding-top: 0.5em;
+	font-size: 8pt;
+}
+
+#history {
+	float: right;
+	width: 75%;
+	text-align: justify;
+}
+
+#alexander {
+	float: right;
+	width: 75%;
+}
+
+#alexander h4 {
+	text-align: center;
+}
+
+#journey {
+	float: left;
+	width: 45%;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#journey h4 {
+	margin: 10px;
+	font-size: 130%;
+}
+
+#return-journal {
+	float: right;
+	width: 45%;
+	text-align: center;
+	margin-top: 24px;
+	padding: 0;
+}
+
+#return-journal h4 {
+	font-size: 130%;
+	margin: 10px;
+}
+
+#joseph {
+	float: right;
+	text-align: justify;
+	width: 75%;
+}
+
+.project {
+	text-align: center;
+	margin-right: 1em;
+	text-transform: uppercase;
+	padding: 0.3em;
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+
+#supporters {
+	clear: both;
+	overflow: hidden;
+	margin-top: .5em;
+}
+
+#content {
+	margin-left: 240px;
+	width: 70%;
+}
+
+h4.diary {
+	margin: 35px 0px 10px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 150%;
+	color: #330033;
+	line-height: normal;
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+}
+
+#supporters img {
+	padding-bottom: 1em;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #330033;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #330033;
+}
+
+.project img {
+	float: left;
+}
+
+.project p {
+	font-size: 12pt;
+}
+
+/*Controls the style nav div/container*/
+nav {
+	background-color: white;
+	font-weight: normal;
+	width: 215px;
+	padding: 5px;
+	margin: 10px;
+}
+
+/*Controls the style of the ul-organized set of options in the nav*/
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: initial;
+}
+
+/*Controls the style of non-dropdown options in the vertical nav*/
+nav li a {
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: 0.35em;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+nav ul li:hover {
+	background-color: #F3F3F3;
+}
+
+.project-icons {
+  width: 29%;
+  padding: 8px;
+}
+
+#contact-us-button a {
+  text-decoration: none;
+  line-height: 15pt;
+}
+
+#contact-us-button {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 2px solid #330033;
+  background-color: white;
+  font-size: 12pt;
+  padding: 10px;
+	width: 20%;
+}
+
+#contact-us-button:hover, #contact-us-button:hover a {
+  text-decoration: none;
+  background-color: #330033;
+  color: white;
+  cursor: pointer;
+}
+
+#About-Us-Title {
+	font-size: 180% !important;
+}

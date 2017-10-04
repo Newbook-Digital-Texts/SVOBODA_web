@@ -1,0 +1,51 @@
+#text{
+	margin-top: -31%;
+    /* width: 95%; */
+    height: 50%;
+    position: relative;
+    /* margin-left: 2%; */
+    font-size: 3vw;
+    margin-top: -16%;
+}
+
+#text a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.titles {
+	padding-left: 5%;
+	padding-top: 2%;
+	height: 10%;
+	width: 90%;
+	margin-left: 8%;
+	margin-bottom: 3%;
+
+}
+
+.titles li{
+	list-style: none;
+	font-weight: bold;
+	font-size: 2vw;
+
+}
+
+.paragraph{
+	font-size: 1vw;
+	margin-left: 25%;
+	width: 60%;
+}
+
+#cc{
+	text-align: center;
+	font-size: 1vw;
+	margin-bottom: 5%;
+}
+#cc a{
+	font-weight: bold;
+	color: black;
+}
+
+hr{
+	align: center;

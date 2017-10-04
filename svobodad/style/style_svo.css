@@ -1,0 +1,76 @@
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	height: 1000px;
+}
+
+#logo {
+	float:left;
+	margin-left: 9.5%;
+	width:14.3%;
+}
+#top_banner {
+	position: relative;
+	width:80%;
+	height:10%;
+	margin-left: 9.5%;
+}
+.clear{
+	clear:both;
+	width:50px;
+}
+
+
+hr{
+	width:80%;
+	margin-top: 3%;
+	margin-left:9.5%;
+}
+
+/*#menu{
+	width:1000px;
+	height: 40px;
+	margin:0 auto;
+	margin-left: 9%;
+	margin-top: 2%;
+}*/
+
+#menu ul {
+    width: 15%;
+	height: 100%;
+	float: left;
+    list-style: none;
+    margin-left: 9%;
+	font-size: 1.2vw;
+	padding: 0.35em;
+}
+
+
+
+#menu ul li:hover {
+    background-color: #E4E4E4;
+}
+
+#menu ul li a {
+	padding: 2%;
+    display: block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+#bottom_pics{
+	margin-left: 9%;
+	float:left;
+	width: 16%;
+}
+
+#bottom_pics li{
+	font-size: 1.5vw;
+	list-style: none;
+	width: 20%;
+}
+#bottom_pics img {
+	margin-top: 10%;
+	width: 70%;
+}
